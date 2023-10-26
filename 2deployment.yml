@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: hola
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -20,10 +20,10 @@ spec:
         image:  pbitty/hello-from:latest
         resources:
           requests:
-            cpu: 100m
-            memory: 100Mi
+            cpu: 20m
+            memory: 10Mi
           limits:
-            cpu: 100m
-            memory: 200Mi
+            cpu: 30m
+            memory: 15Mi
         ports:
         - containerPort:  80
