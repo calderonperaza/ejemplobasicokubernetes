@@ -16,8 +16,8 @@ spec:
       name: cpu
       target:
         type: Utilization
-        averageUtilization: 50
+        averageUtilization: 40
 #para ver que se aplicado debes esperar que metrics logre leer el cpu
 #kubectl get hpa -n prueba
 #ejecuta las peticiones 
-#while true; do wget -q -O- http://192.168.59.111:30000; done
+#while true; do wget -q -O- http://192.168.59.117:30000; done

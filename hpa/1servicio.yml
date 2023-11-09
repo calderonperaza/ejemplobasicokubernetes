@@ -16,3 +16,7 @@ spec:
     nodePort: 30000
   selector:
     role: php-apache
+##NO FUNCIONO CON LAS METRICAS DE MINIKUBE
+#USARE las de digital ocean instalandolo con helm se usa metrics-server-value para configurar
+#sigue el tutorial de digital ocean
+#https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/07-scaling-application-workloads/hpa.md#step-2---getting-to-know-hpas
